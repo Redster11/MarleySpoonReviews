@@ -1,0 +1,31 @@
+h1, h2, h3, h4, ul, li, p {
+    margin: 0;
+    padding: 0;
+  }
+header {
+    display: grid;
+    font: 'Times New Roman';
+    background-color:goldenrod;
+    color:cornsilk;
+}
+.login {
+    align-self: center;
+    text-align-last: right;
+    padding-right: 10%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1; 
+}
+#title {
+    align-self:center;
+    padding-left: 10%;
+}
+#page_desc {
+    align-self:flex-start;
+    padding-left: 10%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2; 
+}
