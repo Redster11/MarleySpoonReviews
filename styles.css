@@ -5,8 +5,8 @@ h1, h2, h3, h4, ul, li, p {
 header {
     display: grid;
     font: 'Times New Roman';
-    background-color:goldenrod;
-    color:cornsilk;
+    background-color:#fbdb5b;
+    color:#343726;
 }
 .login {
     align-self: center;
@@ -29,10 +29,98 @@ header {
     grid-row-start: 2;
     grid-row-end: 2; 
 }
+
+/********** Main Styles ***********/
+main {
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+}
 #list {
     align-self: center;
     text-align: center;
 }
+/********** Card Styles ***********/
 .card{
-    text-align: center;
+    display:flex;
+    background-color:#69e7ff ;
+}
+#image {
+    height:50%;
+    width:50%;
+    margin : 1%; 
+ }
+ .card-body {
+    background-color: #fbdb5b;
+    margin: 1%;
+    margin-left: 0;
+    display: table-cell;
+}
+.card-head {
+    margin-top: 1%;
+    margin-left:2%;
+    margin-right: 2%;
+    text-align: justify;
+    display:grid;
+    box-sizing: content-box;
+    padding-bottom: 5%;
+}
+#name {
+    grid-column: 1;
+    grid-row: 1;
+}
+#date {
+    grid-column: 3;
+    grid-row: 1;
+}
+#star {
+    grid-column: 2;
+    grid-row: 1;
+}
+.card-text {
+    align-self: center;
+    text-align: left;
+}
+#recipe-link {
+    vertical-align: text-bottom;
+}
+
+
+/********** Link Styles ***********/
+#links {
+	width: 20%;
+	display: flex;
+	margin: auto;
+}
+
+#links a {
+	display: block;
+	flex: 1;
+	background: #47d7ac;
+	height: 50px;
+	line-height: 50px;
+	color: #343726;
+	text-decoration: none;
+	font-family: Arial;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#links a:hover {
+	background: #69e7ff;
+	color: #fff;
+}
+/************ Animation Styles ************/
+
+.fadeinimg {
+	animation: fadein 2s;
+}
+
+@keyframes fadein {
+	from{
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
