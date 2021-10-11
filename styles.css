@@ -4,7 +4,6 @@ h1, h2, h3, h4, ul, li, p {
   }
 header {
     display: grid;
-    font: 'Times New Roman';
     background-color:#fbdb5b;
     color:#343726;
 }
@@ -112,7 +111,7 @@ main {
 }
 
 #links a:hover {
-	background: #69e7ff;
+	background: #4ee7bc;
 	color: #fff;
 }
 /************ Animation Styles ************/
